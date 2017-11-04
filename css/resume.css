@@ -1,7 +1,7 @@
 /*!
- * Start Bootstrap - Resume v4.0.0-beta.2 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ * Start Bootstrap - Sanjeet - Portfolio v4.0.1 ()
+ * Copyright 2013-2017 Sanjeet Kumar
+ * Licensed under MIT (https://github.com/BlackrockDigital/portfolio/blob/master/LICENSE)
  */
 body {
   font-family: 'Open Sans', serif;
@@ -48,6 +48,15 @@ h2 {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
     color: #BD5D38; }
+
+.removeUnderline {
+  text-decoration: none !important; }
+
+.margin-top20 {
+  margin-top: 20px; }
+
+.normalText {
+  text-transform: none; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
