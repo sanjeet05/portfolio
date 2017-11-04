@@ -10,7 +10,7 @@
 Make sure you have installed all of the following prerequisites on your development machine:
 * Node.js - [Download & Install Node.js](https://nodejs.org/en/download/) and the npm package manager.
 
-* Gulp - (Optional) You may use Gulp for Live Reload, Linting, and SASS or LESS.
+* Gulp - We use Gulp for Live Reload, Linting, and SASS or LESS.
 
 ```bash
 $ npm install gulp -g
