@@ -49,14 +49,14 @@ h2 {
   .list-icons .list-inline-item i:hover {
     color: #BD5D38; }
 
-.removeUnderline {
+.remove-underline {
   text-decoration: none !important; }
 
 .margin-top20 {
-  margin-top: 20px; }
+  margin-top: 20px !important; }
 
-.normalText {
-  text-transform: none; }
+.normal-text {
+  text-transform: none !important; }
 
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 600;
