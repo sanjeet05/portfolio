@@ -1,8 +1,8 @@
 {
-  "title": "Resume",
-  "name": "startbootstrap-resume",
-  "version": "4.0.0-beta.2",
-  "description": "Resume is a simple, yet elegant resume and CV theme for Bootstrap 4.",
+  "title": "Sanjeet - Portfolio",
+  "name": "portfolio",
+  "version": "4.0.1",
+  "description": "Portfolio is a simple",
   "keywords": [
     "css",
     "sass",
@@ -11,19 +11,12 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/resume",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume/issues",
-    "email": "feedback@startbootstrap.com"
-  },
+  "homepage": "",
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
+  "author": "Sanjeet Kumar",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-resume.git"
+    "url": "https://github.com/sanjeet05/portfolio.git"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
