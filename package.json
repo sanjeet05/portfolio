@@ -5,6 +5,7 @@
   "homepage": "https://sanjeet05.github.io",
   "dependencies": {
     "gh-pages": "^2.0.1",
+    "moment": "^2.22.2",
     "node-sass": "^4.9.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
