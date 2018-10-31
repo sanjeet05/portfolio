@@ -1,3 +1,11 @@
+# [Sanjeet - Portfolio](https://sanjeet05.github.io/portfolio/)
+
+
+**[View Live Preview](https://sanjeet05.github.io/portfolio/)**
+
+
+## Usage
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -14,7 +22,7 @@ You will also see any lint errors in the console.
 
 ### `npm start`
 
-Runs the app in the production mode using nodejs<br>
+Runs the app in the production mode using nodejs.<br>
 Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 
 The page will reload if you make edits.<br>
