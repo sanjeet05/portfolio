@@ -167,6 +167,7 @@ a:hover, a:focus, a:active {
   }
 }
 
+
 // media query for mobile
 @media (min-width: 768px) {
   section.resume-section {
@@ -174,6 +175,13 @@ a:hover, a:focus, a:active {
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem; 
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.5rem; 
   }
 }
 
