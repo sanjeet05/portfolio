@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import moment from 'moment';
+import DateCalc from '../components/DateCalc';
 
 const Experience = (props) => {
-  const data = props.data;
+  const data = props.data;  
   return (
     <Fragment>
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
@@ -22,6 +23,7 @@ const Experience = (props) => {
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">{`${moment(data.zylotech.start_date).format("MMM YYYY")}`} - Present</span>
+              <div className="text-muted exp_date">{`${DateCalc(data.zylotech.start_date, data.zylotech.end_date)}`}</div>
             </div>
           </div>
 
@@ -42,6 +44,7 @@ const Experience = (props) => {
               <span className="text-primary">
               {`${moment(data.mobillionlabs.start_date).format("MMM YYYY")}`} - {`${moment(data.mobillionlabs.end_date).format("MMM YYYY")}`}
               </span>
+              <div className="text-muted exp_date">{`${DateCalc(data.mobillionlabs.start_date, data.mobillionlabs.end_date)}`}</div>
             </div>
           </div>
 
@@ -63,6 +66,7 @@ const Experience = (props) => {
               <span className="text-primary">
               {`${moment(data.sense_infinity.start_date).format("MMM YYYY")}`} - {`${moment(data.sense_infinity.end_date).format("MMM YYYY")}`}
               </span>
+              <div className="text-muted exp_date">{`${DateCalc(data.sense_infinity.start_date, data.sense_infinity.end_date)}`}</div>
             </div>
           </div>
 
