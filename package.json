@@ -2,7 +2,7 @@
   "name": "sanjeet-ortfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanjeet05.github.io",
+  "homepage": "https://sanjeet05.github.io/portfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "moment": "^2.22.2",
