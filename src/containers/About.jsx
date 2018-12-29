@@ -9,7 +9,7 @@ const About = (props) => {
             Sanjeet <span className="text-primary"> Kumar </span>
           </h1>
           <div className="subheading mb-5 normal-text">India - Bangalore · (+91) 9445165233 ·
-            <a href="mailto:kumarsanjeet1990@gmail.com"> kumarsanjeet1990@gmail.com </a>
+            <a href="mailto:kumarsanjeet1990@gmail.com"> isanjeet09@gmail.com </a>
           </div>
           <div>
             <p>
