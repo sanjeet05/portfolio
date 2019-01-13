@@ -3,7 +3,7 @@ import moment from 'moment';
 import DateCalc from '../components/DateCalc';
 
 const Experience = (props) => {
-  const data = props.data;  
+  const data = props.data;
   return (
     <Fragment>
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
@@ -20,6 +20,18 @@ const Experience = (props) => {
               <p>
                 Working with NodeJS, ExpressJS, MongoDB, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, AdminLte, Html, CSS, Git to create customer AI platform products.
               </p>
+              <div>
+                <ul class="tags">
+                  <li class="tag">Docker</li>
+                  <li class="tag">Rest APIs</li>
+                  <li class="tag">MERN Stack</li>
+                  <li class="tag">AWS</li>
+                  <li class="tag">CI/CD Pipeline</li>
+                  <li class="tag">Agile</li>
+                  <li class="tag">Slack</li>
+                  <li class="tag">Jira</li>
+                </ul>
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">{`${moment(data.zylotech.start_date).format("MMM YYYY")}`} - Present</span>
@@ -39,6 +51,18 @@ const Experience = (props) => {
                 <br /> <br />
                 Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.
               </p>
+              <div>
+                <ul class="tags">
+                  <li class="tag">Rest APIs</li>
+                  <li class="tag">MongoDB</li>
+                  <li class="tag">AngularJS</li>
+                  <li class="tag">NodeJS</li>
+                  <li class="tag">ExpressJS</li>
+                  <li class="tag">MEAN Stack</li>
+                  <li class="tag">JSON</li>
+                  <li class="tag">Hybrid App</li>
+                </ul>
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">
@@ -61,6 +85,15 @@ const Experience = (props) => {
                 <br /> <br />
                 Stack Used: Laravel Framework(PHP), MySql, AngularJS, Bootstrap, Html, CSS, Git.
               </p>
+              <div>
+                <ul class="tags">
+                  <li class="tag">Intern</li>
+                  <li class="tag">Rest APIs</li>
+                  <li class="tag">Laravel</li>
+                  <li class="tag">AngularJS</li>
+                  <li class="tag">Git</li>
+                </ul>
+              </div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">

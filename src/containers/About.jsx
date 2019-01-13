@@ -39,7 +39,13 @@ const About = (props) => {
             </li> --> */}
             {/* <!-- linkedin --> */}
             <li className="list-inline-item">
-              <a href="https://in.linkedin.com/in/sanjeet-kumar-582386a4" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://in.linkedin.com/in/sanjeet-kumar-582386a4"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-toggle="tooltip"
+                title="LinkedIn"
+              >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
                   <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -48,7 +54,7 @@ const About = (props) => {
             </li>
             {/* <!-- github --> */}
             <li className="list-inline-item">
-              <a href="https://github.com/sanjeet05" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/sanjeet05" target="_blank" rel="noopener noreferrer" data-toggle="tooltip"  title="GitHub" >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
                   <i className="fa fa-github fa-stack-1x fa-inverse"></i>
