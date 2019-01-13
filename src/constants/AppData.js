@@ -25,7 +25,7 @@ const AppData = {
   education: {
     master: {
       college: 'Pondicherry University',
-      course: 'Master of Computer Application (MCA)',      
+      course: 'Master of Computer Application (MCA)',
       start_date: new Date('07/03/2013'),
       end_date: new Date('05/10/2016')
     },

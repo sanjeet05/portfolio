@@ -175,6 +175,29 @@ a:hover, a:focus, a:active {
   border-left-color: $primary_color;
 }
 
+.skill_title {
+  height: 40px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 4px solid $primary_color;
+  position: relative;
+  line-height: 38px;
+}
+
+.skill_title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 0;
+  height: 0;
+  border-left: 8px solid $primary_color;
+  border-right: 8px solid transparent;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  clear: both;
+}
+
 
 // media query for tablets
 @media (min-width: 992px) {

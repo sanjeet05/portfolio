@@ -6,7 +6,6 @@ const Skills = (props) => {
       <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
         <div className="my-auto">
           <h2 className="mb-5">Skills</h2>
-
           <div className="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul className="list-inline list-icons">
             <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="NodeJS">
@@ -76,7 +75,7 @@ const Skills = (props) => {
 
           </ul>
 
-          <div className="subheading mb-3">Containers & Cloud</div>
+          <div className="subheading mb-3">Containers &amp; Cloud</div>
           <ul className="list-inline list-icons">
             <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="AWS">
               <i class="devicons devicons-aws skill_icon"></i>
