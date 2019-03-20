@@ -10,7 +10,7 @@ const Awards = (props) => {
             <li>
               <i className="fa-li fa fa-trophy text-warning"></i>
               MongoDB for Python Developers - MongoDB University, Mar 2019
-              <a className="ml-2" href="https://university.mongodb.com/course_completion/547bac8d-5b02-4732-9a66-c55ddcfb/printable" target="_blank">
+              <a className="ml-2" href="https://university.mongodb.com/course_completion/547bac8d-5b02-4732-9a66-c55ddcfb/printable" target="_blank" rel='noopener noreferrer'>
                 <i className="fa fa-eye"></i>
               </a>
             </li>
