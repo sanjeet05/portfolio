@@ -12,6 +12,22 @@ const Interests = (props) => {
           <p className="mb-0">
             When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.
           </p>
+
+          <div className="mt-5">
+            <div className="subheading mb-3">Open Source Tools</div>
+            <strong>Loremi</strong> - Firefox Add-on
+            <a className="ml-2" href="https://addons.mozilla.org/en-US/firefox/addon/loremi/" target="_blank" rel='noopener noreferrer'>
+              <i className="fa fa-eye"></i>
+            </a>
+
+            <div className="mt-2">
+              <strong>Loremi</strong> - Chrome Add-on
+              <a className="ml-2" href="https://chrome.google.com/webstore/detail/loremi/kblmadlmninloejlicjemplgngfpbofk" target="_blank" rel='noopener noreferrer'>
+                <i className="fa fa-eye"></i>
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
     </Fragment>
