@@ -20,7 +20,7 @@ class App extends Component {
     }
   }
 
-  componentDidMount() { 
+  componentDidMount() {
     //  smooth scrolling
     document.querySelectorAll('a.js-scroll-trigger[href*="#"]:not([href="#"])').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
@@ -36,7 +36,7 @@ class App extends Component {
 
   toggleNavbar = () => {
     this.setState({ collapsed: !this.state.collapsed });
-  } 
+  }
 
   render() {
     const {collapsed, data} = this.state;
@@ -45,7 +45,7 @@ class App extends Component {
         <NavBar toggleNavbar={this.toggleNavbar} collapsed={collapsed}/>
 
         <div className="container-fluid p-0">
-          <About />
+          <About data={data.about} />
           <Experience data={data.experience} />
           <Education data={data.education} />
           <Skills />

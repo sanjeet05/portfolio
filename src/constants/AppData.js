@@ -1,4 +1,15 @@
 const AppData = {
+  about: {
+    firstName: 'Sanjeet',
+    lastName: 'Kumar',
+    mobileNo: '9445165233',
+    email: 'isanjeet09@gmail.com',
+    workExp: '3 year',
+    country: 'India',
+    location: 'Bangalore',
+    linkedIn: 'https://in.linkedin.com/in/sanjeet-kumar-582386a4',
+    gitHub: 'https://github.com/sanjeet05',
+  },
   experience: {
     zylotech: {
       name: 'Zylotech',
