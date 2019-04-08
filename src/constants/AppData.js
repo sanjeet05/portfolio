@@ -4,7 +4,7 @@ const AppData = {
     lastName: 'Kumar',
     mobileNo: '9445165233',
     email: 'isanjeet09@gmail.com',
-    workExp: '3 year',
+    workExp: '3 years',
     country: 'India',
     location: 'Bangalore',
     linkedIn: 'https://in.linkedin.com/in/sanjeet-kumar-582386a4',
