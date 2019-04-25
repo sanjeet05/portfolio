@@ -1,18 +1,28 @@
 import React, { Fragment } from 'react';
 
+import qrImage from '../assets/images/sanjeet_qrcode.png';
+
 const About = (props) => {
   const { data } = props;
   return (
     <Fragment>
       <section className="resume-section p-3 p-lg-5 d-flex d-column" id="about">
         <div className="my-auto">
-          <h1 className="mb-0">
-            {data.firstName} <span className="text-primary"> {data.lastName} </span>
-          </h1>
-          <div className="subheading mb-5 normal-text">
-            {data.country} - {data.location} · <span style={{letterSpacing:'1.5px'}}>(+91) {data.mobileNo}</span>·
-            <a href={'mailto:'+data.email}> {data.email} </a>
+          <div className="row">
+            <div className="col-md-10 col-sm-12">
+              <h1 className="mb-0">
+                {data.firstName} <span className="text-primary"> {data.lastName} </span>
+              </h1>
+              <div className="subheading mb-5 normal-text">
+                {data.country} - {data.location} · <span style={{ letterSpacing: '1.5px' }}>(+91) {data.mobileNo}</span>·
+                <a href={'mailto:' + data.email}> {data.email} </a>
+              </div>
+            </div>
+            <div className="col-md-2 col-sm-12 qr_image">
+              <img className="img-fluid mx-auto" src={qrImage} alt="QR Code" />
+            </div>
           </div>
+
           <div>
             <p>
               Work Experience : {data.workExp}
@@ -56,7 +66,7 @@ const About = (props) => {
             </li>
             {/* <!-- github --> */}
             <li className="list-inline-item">
-              <a href={data.gitHub} target="_blank" rel="noopener noreferrer" data-toggle="tooltip"  title="GitHub" >
+              <a href={data.gitHub} target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="GitHub" >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
                   <i className="fa fa-github fa-stack-1x fa-inverse"></i>

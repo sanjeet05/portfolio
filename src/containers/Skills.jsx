@@ -77,16 +77,16 @@ const Skills = (props) => {
 
           <div className="subheading mb-3">Containers &amp; Cloud</div>
           <ul className="list-inline list-icons">
-            <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="AWS">
-              <i class="devicons devicons-aws skill_icon"></i>
+            <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="AWS">
+              <i className="devicons devicons-aws skill_icon"></i>
               <span className="skill_name">AWS</span>
             </li>
-            <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Linux">
-              <i class="devicons devicons-linux skill_icon"></i>
+            <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="Linux">
+              <i className="devicons devicons-linux skill_icon"></i>
               <span className="skill_name">Linux</span>
             </li>
-            <li class="list-inline-item" data-toggle="tooltip" data-placement="top" title="Docker">
-              <i class="devicons devicons-docker skill_icon"></i>
+            <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="Docker">
+              <i className="devicons devicons-docker skill_icon"></i>
               <span className="skill_name">Docker</span>
             </li>
           </ul>

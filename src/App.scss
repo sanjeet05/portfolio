@@ -198,6 +198,13 @@ a:hover, a:focus, a:active {
   clear: both;
 }
 
+.qr_image {
+  text-align: center;
+  img {
+    width: 120px;
+  }
+}
+
 
 // media query for tablets
 @media (min-width: 992px) {
@@ -276,6 +283,13 @@ a:hover, a:focus, a:active {
   }
   h2 {
     font-size: 2.5rem;
+  }
+  .qr_image {
+    text-align: left;
+    img {
+      margin-bottom: 40px;
+      margin-top: -30px;
+    }
   }
 }
 

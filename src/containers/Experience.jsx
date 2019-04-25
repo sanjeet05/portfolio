@@ -21,15 +21,15 @@ const Experience = (props) => {
                 Working with NodeJS, ExpressJS, MongoDB, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, AdminLte, Html, CSS, Git to create customer AI platform products.
               </p>
               <div>
-                <ul class="tags">
-                  <li class="tag">Docker</li>
-                  <li class="tag">Rest APIs</li>
-                  <li class="tag">MERN Stack</li>
-                  <li class="tag">AWS</li>
-                  <li class="tag">CI/CD Pipeline</li>
-                  <li class="tag">Agile</li>
-                  <li class="tag">Slack</li>
-                  <li class="tag">Jira</li>
+                <ul className="tags">
+                  <li className="tag">Docker</li>
+                  <li className="tag">Rest APIs</li>
+                  <li className="tag">MERN Stack</li>
+                  <li className="tag">AWS</li>
+                  <li className="tag">CI/CD Pipeline</li>
+                  <li className="tag">Agile</li>
+                  <li className="tag">Slack</li>
+                  <li className="tag">Jira</li>
                 </ul>
               </div>
             </div>
@@ -52,15 +52,15 @@ const Experience = (props) => {
                 Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.
               </p>
               <div>
-                <ul class="tags">
-                  <li class="tag">Rest APIs</li>
-                  <li class="tag">MongoDB</li>
-                  <li class="tag">AngularJS</li>
-                  <li class="tag">NodeJS</li>
-                  <li class="tag">ExpressJS</li>
-                  <li class="tag">MEAN Stack</li>
-                  <li class="tag">JSON</li>
-                  <li class="tag">Hybrid App</li>
+                <ul className="tags">
+                  <li className="tag">Rest APIs</li>
+                  <li className="tag">MongoDB</li>
+                  <li className="tag">AngularJS</li>
+                  <li className="tag">NodeJS</li>
+                  <li className="tag">ExpressJS</li>
+                  <li className="tag">MEAN Stack</li>
+                  <li className="tag">JSON</li>
+                  <li className="tag">Hybrid App</li>
                 </ul>
               </div>
             </div>
@@ -86,12 +86,12 @@ const Experience = (props) => {
                 Stack Used: Laravel Framework(PHP), MySql, AngularJS, Bootstrap, Html, CSS, Git.
               </p>
               <div>
-                <ul class="tags">
-                  <li class="tag">Intern</li>
-                  <li class="tag">Rest APIs</li>
-                  <li class="tag">Laravel</li>
-                  <li class="tag">AngularJS</li>
-                  <li class="tag">Git</li>
+                <ul className="tags">
+                  <li className="tag">Intern</li>
+                  <li className="tag">Rest APIs</li>
+                  <li className="tag">Laravel</li>
+                  <li className="tag">AngularJS</li>
+                  <li className="tag">Git</li>
                 </ul>
               </div>
             </div>
