@@ -30,7 +30,7 @@ const AppData = {
       url: 'http://sense8.tech/',
       role: 'Full Stack Developer as Intern',
       start_date: new Date('05/10/2016'),
-      end_date: new Date('08/10/2016')
+      end_date: new Date('08/08/2016')
     }
   },
   education: {
