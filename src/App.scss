@@ -293,3 +293,29 @@ a:hover, a:focus, a:active {
   }
 }
 
+@media (min-width: 1367px) {
+  body {
+    padding-left: 0px;
+    background-color: #f5f5f5;
+  }
+  //css grid layout
+  .home_container {
+    display: grid;
+    grid-template-columns: 17rem 1fr;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    max-width: 1367px;
+  }
+
+  .home_container .home_container_item_1 #sideNav {
+    position: sticky;
+  }
+}
+
+
+
+

@@ -39,18 +39,21 @@ class App extends Component {
   }
 
   render() {
-    const {collapsed, data} = this.state;
+    const { collapsed, data } = this.state;
     return (
       <Fragment>
-        <NavBar toggleNavbar={this.toggleNavbar} collapsed={collapsed}/>
-
-        <div className="container-fluid p-0">
-          <About data={data.about} />
-          <Experience data={data.experience} />
-          <Education data={data.education} />
-          <Skills />
-          <Interests />
-          <Awards />
+        <div className="home_container">
+          <div className="home_container_item_1">
+            <NavBar toggleNavbar={this.toggleNavbar} collapsed={collapsed} />
+          </div>
+          <div className="container-fluid p-0 home_container_item_2">
+            <About data={data.about} />
+            <Experience data={data.experience} />
+            <Education data={data.education} />
+            <Skills />
+            <Interests />
+            <Awards />
+          </div>
         </div>
       </Fragment>
     )
