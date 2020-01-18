@@ -18,7 +18,7 @@ const Experience = (props) => {
                 <a className="remove-underline" href={data.zylotech.url} target="_blank" rel="noopener noreferrer">{data.zylotech.name}</a>
               </div>
               <p>
-                Working with NodeJS, ExpressJS, MongoDB, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, AdminLte, Html, CSS, Git to create customer AI platform products.
+                Working with NodeJS, ExpressJS, MongoDB, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git to create blockchain powered products.
               </p>
               <div>
                 <ul className="tags">

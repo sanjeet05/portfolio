@@ -51,7 +51,7 @@ const About = (props) => {
             </li> --> */}
             {/* <!-- linkedin --> */}
             <li className="list-inline-item">
-              <a
+              {/* <a
                 href={data.linkedIn}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -62,16 +62,16 @@ const About = (props) => {
                   <i className="fa fa-circle fa-stack-2x"></i>
                   <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
+              </a> */}              
             </li>
             {/* <!-- github --> */}
             <li className="list-inline-item">
-              <a href={data.gitHub} target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="GitHub" >
+              {/* <a href={data.gitHub} target="_blank" rel="noopener noreferrer" data-toggle="tooltip" title="GitHub" >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
                   <i className="fa fa-github fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
+              </a> */}            
             </li>
           </ul>
         </div>

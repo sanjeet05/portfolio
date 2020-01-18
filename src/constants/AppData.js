@@ -4,7 +4,7 @@ const AppData = {
     lastName: 'Kumar',
     mobileNo: '9445165233',
     email: 'isanjeet09@gmail.com',
-    workExp: '3 years',
+    workExp: '3+ years',
     country: 'India',
     location: 'Bangalore',
     linkedIn: 'https://in.linkedin.com/in/sanjeet-kumar-582386a4',
@@ -12,10 +12,10 @@ const AppData = {
   },
   experience: {
     zylotech: {
-      name: 'Zylotech',
-      url: 'https://www.zylotech.com/',
+      name: 'StreamSpace',
+      url: 'https://www.stream.space/',
       role: 'Full Stack Developer',
-      start_date: new Date('08/28/2017'),
+      start_date: new Date('08/28/2018'),
       end_date: new Date(),
     },
     mobillionlabs: {
@@ -23,7 +23,7 @@ const AppData = {
       url: 'https://mobillionlabs.com/',
       role: 'Software Engineer',
       start_date: new Date('08/21/2016'),
-      end_date: new Date('08/25/2017')
+      end_date: new Date('08/25/2018')
     },
     sense_infinity: {
       name: 'Sense Infinity Technology',
