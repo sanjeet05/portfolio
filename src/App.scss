@@ -205,6 +205,17 @@ a:hover, a:focus, a:active {
   }
 }
 
+.mobile_number { 
+  font-weight: 500;
+  font-family: 'Saira Extra Condensed', serif;
+  font-size: 1.35rem;
+  letter-spacing: 1.5px;
+  color: #868e96;
+  text-decoration: none !important;
+}
+.mobile_number:hover, .mobile_number:focus, .mobile_number:active {
+  color: #868e96;
+}
 
 // media query for tablets
 @media (min-width: 992px) {

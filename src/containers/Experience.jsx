@@ -1,114 +1,77 @@
-import React, { Fragment } from 'react';
-import moment from 'moment';
-import DateCalc from '../components/DateCalc';
+import React, { Fragment } from "react";
+import moment from "moment";
+import DateCalc from "../components/DateCalc";
 
-const Experience = (props) => {
+const Experience = props => {
   const data = props.data;
   return (
     <Fragment>
-      <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+      <section
+        className="resume-section p-3 p-lg-5 d-flex flex-column"
+        id="experience"
+      >
         <div className="my-auto">
-          <h2 className="mb-5">Experience</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">{data.zylotech.role}</h3>
-              <div className="subheading mb-3 normal-text">
-                {/* Zylotech */}
-                <a className="remove-underline" href={data.zylotech.url} target="_blank" rel="noopener noreferrer">{data.zylotech.name}</a>
+          <h2>Experience</h2>
+          {data.map(exp => {
+            return (
+              <div
+                className="resume-item d-flex flex-column flex-md-row mt-5"
+                key={exp.id}
+              >
+                <div className="resume-content mr-auto">
+                  <h3 className="mb-0">{exp.role}</h3>
+                  <div className="subheading mb-3 normal-text">
+                    {exp.url ? (
+                      <a
+                        className="remove-underline"
+                        href={exp.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {exp.name}
+                      </a>
+                    ) : (
+                      <a
+                        className="remove-underline"
+                        href="#/"
+                        onClick={e => {
+                          e.preventDefault();
+                        }}
+                        rel="noopener noreferrer"
+                      >
+                        {exp.name}
+                      </a>
+                    )}
+                  </div>
+                  <p>{exp.line_1}</p>
+                  {exp.line_2 && <p>{exp.line_2}</p>}
+                  <div>
+                    <ul className="tags">
+                      {exp.tags.map(tag => {
+                        return <li className="tag">{tag}</li>;
+                      })}
+                    </ul>
+                  </div>
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">
+                    {`${moment(exp.start_date).format("MMM YYYY")}`} -{" "}
+                    {exp.is_present
+                      ? "Present"
+                      : `${moment(exp.end_date).format("MMM YYYY")}`}
+                  </span>
+                  <div className="text-muted exp_date">{`${DateCalc(
+                    exp.start_date,
+                    exp.end_date
+                  )}`}</div>
+                </div>
               </div>
-              <p>
-                Working with NodeJS, ExpressJS, MongoDB, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git to create blockchain powered products.
-              </p>
-              <div>
-                <ul className="tags">
-                  <li className="tag">Docker</li>
-                  <li className="tag">Rest APIs</li>
-                  <li className="tag">MERN Stack</li>
-                  <li className="tag">AWS</li>
-                  <li className="tag">CI/CD Pipeline</li>
-                  <li className="tag">Agile</li>
-                  <li className="tag">Slack</li>
-                  <li className="tag">Jira</li>
-                </ul>
-              </div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">{`${moment(data.zylotech.start_date).format("MMM YYYY")}`} - Present</span>
-              <div className="text-muted exp_date">{`${DateCalc(data.zylotech.start_date, data.zylotech.end_date)}`}</div>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">{data.mobillionlabs.role}</h3>
-              <div className="subheading mb-3 normal-text">
-                {/* MobillionLabs */}
-                <a className="remove-underline" href={data.mobillionlabs.url} target="_blank" rel="noopener noreferrer">{data.mobillionlabs.name}</a>
-              </div>
-              <p>
-                Worked on building for next generation product, hands on experience in end to end phase of software development life-cycle. Responsible for end-to-end product design and development of the base platform for mobile and web platform.
-                <br /> <br />
-                Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.
-              </p>
-              <div>
-                <ul className="tags">
-                  <li className="tag">Rest APIs</li>
-                  <li className="tag">MongoDB</li>
-                  <li className="tag">AngularJS</li>
-                  <li className="tag">NodeJS</li>
-                  <li className="tag">ExpressJS</li>
-                  <li className="tag">MEAN Stack</li>
-                  <li className="tag">JSON</li>
-                  <li className="tag">Hybrid App</li>
-                </ul>
-              </div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">
-              {`${moment(data.mobillionlabs.start_date).format("MMM YYYY")}`} - {`${moment(data.mobillionlabs.end_date).format("MMM YYYY")}`}
-              </span>
-              <div className="text-muted exp_date">{`${DateCalc(data.mobillionlabs.start_date, data.mobillionlabs.end_date)}`}</div>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row mb-5">
-            <div className="resume-content mr-auto">
-              <h3 className="mb-0">{data.sense_infinity.role}</h3>
-              <div className="subheading mb-3 normal-text">
-                {/* Sense Infinity Technology  */}
-                <a className="remove-underline" href={data.sense_infinity.url} target="_blank" rel="noopener noreferrer">{data.sense_infinity.name}</a>
-              </div>
-              <p>
-                Worked on building a cool product, which is an e-commerce engine for a vertical space.
-                as a part of the core team to architect and develop the web platform for all business and operational needs of the startup.
-                <br /> <br />
-                Stack Used: Laravel Framework(PHP), MySql, AngularJS, Bootstrap, Html, CSS, Git.
-              </p>
-              <div>
-                <ul className="tags">
-                  <li className="tag">Intern</li>
-                  <li className="tag">Rest APIs</li>
-                  <li className="tag">Laravel</li>
-                  <li className="tag">AngularJS</li>
-                  <li className="tag">Git</li>
-                </ul>
-              </div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">
-              {`${moment(data.sense_infinity.start_date).format("MMM YYYY")}`} - {`${moment(data.sense_infinity.end_date).format("MMM YYYY")}`}
-              </span>
-              <div className="text-muted exp_date">{`${DateCalc(data.sense_infinity.start_date, data.sense_infinity.end_date)}`}</div>
-            </div>
-          </div>
-
+            );
+          })}
         </div>
-
       </section>
-
     </Fragment>
-  )
+  );
 };
 
 export default Experience;
