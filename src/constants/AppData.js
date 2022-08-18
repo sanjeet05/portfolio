@@ -8,7 +8,8 @@ const AppData = {
     country: "India",
     location: "Bangalore",
     linkedIn: "https://www.linkedin.com/in/isanjeet09",
-    gitHub: "https://github.com/sanjeet05"
+    gitHub: "https://github.com/sanjeet05",
+    whatsapp: "https://wa.me/919445165233"
   },
   experience: [
     {

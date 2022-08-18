@@ -91,6 +91,20 @@ const About = props => {
                 </span>
               </a>
             </li>
+            <li className="list-inline-item">
+              <a
+                href={data.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-toggle="tooltip"
+                title="Whatsapp"
+              >
+                <span className="fa-stack fa-lg">
+                  <i className="fa fa-circle fa-stack-2x"></i>
+                  <i className="fa fa-whatsapp fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
