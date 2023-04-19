@@ -134,22 +134,22 @@ const AppData = {
         "Hybrid App"
       ]
     },
-    {
-      id: 101,
-      name: "Sense Infinity Technology",
-      url: "",
-      role: "Full Stack Developer as Intern",
-      start_date: new Date("05/10/2016"),
-      end_date: new Date("08/08/2016"),
-      is_present: false,
-      line_1: `Worked on building a cool product, which is an e-commerce engine
-      for a vertical space. as a part of the core team to architect
-      and develop the web platform for all business and operational
-      needs of the startup.`,
-      line_2: `Stack Used: Laravel Framework(PHP), MySql, AngularJS, Bootstrap,
-      Html, CSS, Git.`,
-      tags: ["Intern", "Rest APIs", "Laravel", "AngularJS", "Git"]
-    }
+    // {
+    //   id: 101,
+    //   name: "Sense Infinity Technology",
+    //   url: "",
+    //   role: "Full Stack Developer as Intern",
+    //   start_date: new Date("05/10/2016"),
+    //   end_date: new Date("08/08/2016"),
+    //   is_present: false,
+    //   line_1: `Worked on building a cool product, which is an e-commerce engine
+    //   for a vertical space. as a part of the core team to architect
+    //   and develop the web platform for all business and operational
+    //   needs of the startup.`,
+    //   line_2: `Stack Used: Laravel Framework(PHP), MySql, AngularJS, Bootstrap,
+    //   Html, CSS, Git.`,
+    //   tags: ["Intern", "Rest APIs", "Laravel", "AngularJS", "Git"]
+    // }
   ],
   education: [
     {
