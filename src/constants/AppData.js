@@ -16,7 +16,7 @@ const AppData = {
       id: 106,
       name: "Twin Health",
       url: "https://ind.twinhealth.com/",
-      role: "Full Stack Engineer",
+      role: "Sr. Full Stack Engineer",
       start_date: new Date("03/01/2021"),
       end_date: new Date(),
       is_present: true,
