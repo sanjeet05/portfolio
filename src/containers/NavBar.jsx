@@ -1,12 +1,15 @@
 import React, { Fragment } from 'react';
-
 import profileImage from '../assets/images/sanjeet_img.jpg';
+
+const scrollTo = (href) => {
+  document.querySelector(href)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
 
 const NavBar = (props) => {  
   return (
     <Fragment>
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-        <a className="navbar-brand js-scroll-trigger" href="#about">        
+        <a className="navbar-brand js-scroll-trigger" href="#about" onClick={(e) => { e.preventDefault(); scrollTo('#about'); }}>
           <span className="d-lg-block">
             <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={profileImage} alt="Profile" />
           </span>
@@ -25,22 +28,22 @@ const NavBar = (props) => {
         <div className={props.collapsed ? 'collapse navbar-collapse' : 'collapse  navbar-collapse hide'} id="collapsibleNavbar">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a onClick={props.toggleNavbar} className="nav-link js-scroll-trigger active" href="#about">About</a>
+              <a onClick={(e) => { e.preventDefault(); props.toggleNavbar(); scrollTo('#about'); }} className="nav-link js-scroll-trigger active" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a onClick={props.toggleNavbar} className="nav-link js-scroll-trigger" href="#experience">Experience</a>
+              <a onClick={(e) => { e.preventDefault(); props.toggleNavbar(); scrollTo('#experience'); }} className="nav-link js-scroll-trigger" href="#experience">Experience</a>
             </li>
             <li className="nav-item">
-              <a onClick={props.toggleNavbar} className="nav-link js-scroll-trigger" href="#education">Education</a>
+              <a onClick={(e) => { e.preventDefault(); props.toggleNavbar(); scrollTo('#education'); }} className="nav-link js-scroll-trigger" href="#education">Education</a>
             </li>
             <li className="nav-item">
-              <a onClick={props.toggleNavbar} className="nav-link js-scroll-trigger" href="#skills">Skills</a>
+              <a onClick={(e) => { e.preventDefault(); props.toggleNavbar(); scrollTo('#skills'); }} className="nav-link js-scroll-trigger" href="#skills">Skills</a>
             </li>
             <li className="nav-item">
-              <a onClick={props.toggleNavbar} className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+              <a onClick={(e) => { e.preventDefault(); props.toggleNavbar(); scrollTo('#interests'); }} className="nav-link js-scroll-trigger" href="#interests">Interests</a>
             </li>
             <li className="nav-item">
-              <a onClick={props.toggleNavbar} className="nav-link js-scroll-trigger" href="#awards">Awards</a>
+              <a onClick={(e) => { e.preventDefault(); props.toggleNavbar(); scrollTo('#awards'); }} className="nav-link js-scroll-trigger" href="#awards">Awards</a>
             </li>
           </ul>
         </div>

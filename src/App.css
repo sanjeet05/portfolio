@@ -4,16 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/portfolio/blob/master/LICENSE)
  */
 
-//  colors
-$body_bg_color: #868e96;
-$primary_color: #BD5D38;
-$primary_color_focus: #824027;
-$heading_text_color: #343a40;
-
- body {
+body {
   font-family: 'Open Sans', serif;
   padding-top: 54px;
-  color: $body_bg_color;
+  color: #868e96;
 }
 
 h1,
@@ -25,7 +19,7 @@ h6 {
   font-family: 'Saira Extra Condensed', serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: $heading_text_color;
+  color: #343a40;
 }
 
 h1 {
@@ -48,7 +42,7 @@ h2 {
   color: #495057;
 }
 .list-social-icons a:hover {
-  color: $primary_color;
+  color: #BD5D38;
 }
 .list-social-icons a .fa-lg {
   font-size: 1.75rem;
@@ -58,7 +52,7 @@ h2 {
   font-size: 3rem;
 }
 .list-icons .list-inline-item i:hover {
-  color: $primary_color;
+  color: #BD5D38;
 }
 
 .remove-underline {
@@ -89,18 +83,18 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: $primary_color !important;
+  background-color: #BD5D38 !important;
 }
 
 .text-primary {
-  color: $primary_color !important;
+  color: #BD5D38 !important;
 }
 
 a {
-  color: $primary_color;
+  color: #BD5D38;
 }
 a:hover, a:focus, a:active {
-  color: $primary_color_focus;
+  color: #824027;
 }
 
 .exp_date {
@@ -115,7 +109,6 @@ a:hover, a:focus, a:active {
   color: #868e96;
 }
 
-// tags
 .tags {
   font: 12px/1.5 'PT Sans', serif;
   list-style: none;
@@ -166,20 +159,20 @@ a:hover, a:focus, a:active {
 }
 
 .tag:hover {
-  background-color: $primary_color;
+  background-color: #BD5D38;
   color: white;
   cursor: pointer;
 }
 
 .tag:hover::after {
-  border-left-color: $primary_color;
+  border-left-color: #BD5D38;
 }
 
 .skill_title {
   height: 40px;
   padding-left: 15px;
   padding-right: 15px;
-  border-left: 4px solid $primary_color;
+  border-left: 4px solid #BD5D38;
   position: relative;
   line-height: 38px;
 }
@@ -191,7 +184,7 @@ a:hover, a:focus, a:active {
   top: 11px;
   width: 0;
   height: 0;
-  border-left: 8px solid $primary_color;
+  border-left: 8px solid #BD5D38;
   border-right: 8px solid transparent;
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
@@ -200,12 +193,12 @@ a:hover, a:focus, a:active {
 
 .qr_image {
   text-align: center;
-  img {
-    width: 120px;
-  }
+}
+.qr_image img {
+  width: 120px;
 }
 
-.mobile_number { 
+.mobile_number {
   font-weight: 500;
   font-family: 'Saira Extra Condensed', serif;
   font-size: 1.35rem;
@@ -217,7 +210,6 @@ a:hover, a:focus, a:active {
   color: #868e96;
 }
 
-// media query for tablets
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -276,8 +268,6 @@ a:hover, a:focus, a:active {
   }
 }
 
-
-// media query for mobile
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
@@ -297,10 +287,10 @@ a:hover, a:focus, a:active {
   }
   .qr_image {
     text-align: left;
-    img {
-      margin-bottom: 40px;
-      margin-top: -30px;
-    }
+  }
+  .qr_image img {
+    margin-bottom: 40px;
+    margin-top: -30px;
   }
 }
 
@@ -309,7 +299,6 @@ a:hover, a:focus, a:active {
     padding-left: 0px;
     background-color: #f5f5f5;
   }
-  //css grid layout
   .home_container {
     display: grid;
     grid-template-columns: 17rem 1fr;
@@ -321,12 +310,7 @@ a:hover, a:focus, a:active {
     background: #fff;
     max-width: 1367px;
   }
-
   .home_container .home_container_item_1 #sideNav {
     position: sticky;
   }
 }
-
-
-
-
