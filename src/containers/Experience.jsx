@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { formatMonthYear, DateCalc } from "../utils/dateFormat.utils";
 
-const Experience = props => {
+const Experience = (props) => {
   const data = props.data;
   return (
     <Fragment>
@@ -11,7 +11,7 @@ const Experience = props => {
       >
         <div className="my-auto">
           <h2>Experience</h2>
-          {data.map(exp => {
+          {data.map((exp) => {
             return (
               <div
                 className="resume-item d-flex flex-column flex-md-row mt-5"
@@ -33,7 +33,7 @@ const Experience = props => {
                       <a
                         className="remove-underline"
                         href="#/"
-                        onClick={e => {
+                        onClick={(e) => {
                           e.preventDefault();
                         }}
                         rel="noopener noreferrer"
@@ -46,7 +46,7 @@ const Experience = props => {
                   {exp.line_2 && <p>{exp.line_2}</p>}
                   <div>
                     <ul className="tags">
-                      {exp.tags.map(tag => {
+                      {exp.tags.map((tag) => {
                         return <li className="tag">{tag}</li>;
                       })}
                     </ul>
@@ -55,13 +55,11 @@ const Experience = props => {
                 <div className="resume-date text-md-right">
                   <span className="text-primary">
                     {formatMonthYear(exp.start_date)} -{" "}
-                    {exp.is_present
-                      ? "Present"
-                      : formatMonthYear(exp.end_date)}
+                    {exp.is_present ? "Present" : formatMonthYear(exp.end_date)}
                   </span>
                   <div className="text-muted exp_date">{`${DateCalc(
                     exp.start_date,
-                    exp.end_date
+                    exp.end_date,
                   )}`}</div>
                 </div>
               </div>

@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { formatMonthYear } from "../utils/dateFormat.utils";
 
-const Education = props => {
+const Education = (props) => {
   const { data } = props;
   return (
     <Fragment>
@@ -11,7 +11,7 @@ const Education = props => {
       >
         <div className="my-auto">
           <h2>Education</h2>
-          {data.map(edu => {
+          {data.map((edu) => {
             return (
               <div
                 className="resume-item d-flex flex-column flex-md-row mt-5"

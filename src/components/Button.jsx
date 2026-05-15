@@ -46,8 +46,8 @@ const Button = ({
         style={merged}
         target="_blank"
         rel="noopener noreferrer"
-        onMouseOver={e => (e.currentTarget.style.opacity = "0.8")}
-        onMouseOut={e => (e.currentTarget.style.opacity = "1")}
+        onMouseOver={(e) => (e.currentTarget.style.opacity = "0.8")}
+        onMouseOut={(e) => (e.currentTarget.style.opacity = "1")}
         {...props}
       >
         {children}
@@ -60,8 +60,8 @@ const Button = ({
       onClick={onClick}
       className={className}
       style={merged}
-      onMouseOver={e => (e.currentTarget.style.opacity = "0.8")}
-      onMouseOut={e => (e.currentTarget.style.opacity = "1")}
+      onMouseOver={(e) => (e.currentTarget.style.opacity = "0.8")}
+      onMouseOut={(e) => (e.currentTarget.style.opacity = "1")}
       {...props}
     >
       {children}

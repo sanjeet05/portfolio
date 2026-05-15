@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-const Awards = props => {
+const Awards = (props) => {
   return (
     <Fragment>
       <section

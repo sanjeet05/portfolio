@@ -3,7 +3,7 @@ import { yearsSince } from "../utils/dateFormat.utils";
 
 import qrImage from "../assets/images/sanjeet_qrcode.png";
 
-const About = props => {
+const About = (props) => {
   const { data } = props;
   const mobileNumber = "+91" + data.mobileNo;
   return (
@@ -30,10 +30,7 @@ const About = props => {
           </div>
 
           <div>
-            <p>
-              Work Experience : {yearsSince(data.workStarted)}+
-              years
-            </p>
+            <p>Work Experience : {yearsSince(data.workStarted)}+ years</p>
           </div>
           <p className="mb-5">
             To work in a dynamic environment with growth and potential where
