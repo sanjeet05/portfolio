@@ -42,7 +42,11 @@ const Experience = (props) => {
                       </a>
                     )}
                   </div>
-                  <p>{exp.line_1}</p>
+                  <ul>
+                    {exp.line_1.map((point, i) => (
+                      <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
+                    ))}
+                  </ul>
                   {exp.line_2 && <p>{exp.line_2}</p>}
                   <div>
                     <ul className="tags">

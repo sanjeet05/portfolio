@@ -6,7 +6,7 @@ const AppData = {
     email: "isanjeet09@gmail.com",
     workStarted: "08/01/2016",
     country: "India",
-    location: "Bangalore",
+    location: "Bengaluru",
     linkedIn: "https://www.linkedin.com/in/isanjeet09",
     gitHub: "https://github.com/sanjeet05",
     whatsapp: "https://wa.me/919445165233",
@@ -20,9 +20,9 @@ const AppData = {
       start_date: new Date("02/09/2026"), // mm/dd/yyyy
       end_date: new Date(""), // mm/dd/yyyy
       is_present: true,
-      line_1: `Working with NestJS, NodeJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker,
-      Webpack, NPM, Bootstrap, Html, CSS,
-      Git - Transform raw deal data into real-time intelligence.`,
+      line_1: [
+        "Working with NestJS, NodeJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git - Transform raw deal data into real-time intelligence.",
+      ],
       line_2: "",
       tags: [
         "Rest APIs",
@@ -44,9 +44,16 @@ const AppData = {
       start_date: new Date("03/01/2021"), // mm/dd/yyyy
       end_date: new Date("10/30/2025"), // mm/dd/yyyy
       is_present: false,
-      line_1: `Worked with NodeJS, ExpressJS, MySql, Redis, ReactJS, GatsBy, Graphql, ES6, Docker,
-      Webpack, NPM, Bootstrap, Html, CSS,
-      Git - to develop technology makes type 2 diabetes reversal possible.`,
+      line_1: [
+        "Developed and scaled a Whole Body Digital Twin AI platform focused on reversing Type 2 Diabetes and improving metabolic health outcomes.",
+        "Led and mentored a team of engineers through code reviews, architectural guidance, and adoption of best practices.",
+        "Collaborated with QA, Product, and cross-functional stakeholders to deliver stable, on-time releases.",
+        "Designed and maintained a microservices-based architecture to support high availability and scalability.",
+        "Built and managed CI/CD pipelines and containerized deployments using Docker and Kubernetes on AWS.",
+        "Integrated Razorpay and WhatsApp Business APIs, improving payment success rates and user engagement.",
+        "Optimized frontend performance, reducing page load times by <b>30%</b> and improving UI responsiveness.",
+        "Used AI Copilot tools to accelerate development and improve code quality, refactoring, and test generation.",
+      ],
       line_2: "",
       tags: [
         "Rest APIs",
@@ -68,9 +75,13 @@ const AppData = {
       start_date: new Date("10/06/2019"),
       end_date: new Date("03/20/2021"),
       is_present: false,
-      line_1: `Worked with NodeJS, ExpressJS, PostgreSQL, MongoDB, Redis, ReactJS, ES6, D3.JS,
-      Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS,
-      Git to create blockchain powered products.`,
+      line_1: [
+        "Worked with NodeJS, ExpressJS, PostgreSQL, MongoDB, Redis, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git to create blockchain powered products.",
+        "Built web interfaces for Ethereum wallet integrations using Ether.js.",
+        "Implemented real-time communication features using Socket.io.",
+        "Automated build and deployment processes through CI/CD pipelines.",
+        "Improved system reliability, reducing production errors by <b>25%</b>.",
+      ],
       line_2: "",
       tags: [
         "Blockchain",
@@ -93,7 +104,13 @@ const AppData = {
       start_date: new Date("09/11/2018"),
       end_date: new Date("10/12/2019"),
       is_present: false,
-      line_1: `Worked with Python, NodeJS, ExpressJS, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, Webpack, NPM, Material-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API to create a testing platform.`,
+      line_1: [
+        "Worked with Python, NodeJS, ExpressJS, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, Webpack, NPM, Material-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API to create a testing platform.",
+        "Developed backend services using Node.js, Python, and Flask.",
+        "Implemented JWT-based authentication and authorization.",
+        "Integrated PayPal payment gateway, improving transaction reliability.",
+        "Built 30+ reusable UI components, improving development speed by <b>20%</b> using React.js.",
+      ],
       line_2: "",
       tags: [
         "Rest APIs",
@@ -114,14 +131,13 @@ const AppData = {
       start_date: new Date("08/28/2017"),
       end_date: new Date("09/10/2018"),
       is_present: false,
-      line_1: `Worked on building for customer AI products, 
-      hands-on experience in end to end phase of software development 
-      life-cycle. Responsible for end-to-end product design and development 
-      of the base platform for the web platform.`,
-      line_2: `Stack Used: MERN Stack Framework - Python, NodeJS, ExpressJS, 
-      ElasticSearch, MongoDB, PostgreSQL, Redis, ReactJS, Redux, 
-      ES6, D3.JS, Webpack, NPM, Material-UI, Semantic-UI, Bootstrap, 
-      Git, Nginx, Docker, AWS, Rest API.`,
+      line_1: [
+        "Worked on building for customer AI products, hands-on experience in end to end phase of software development life-cycle. Responsible for end-to-end product design and development of the base platform for the web platform.",
+        "Developed REST APIs and integrated them with React.js frontends.",
+        "Implemented role-based access control (RBAC) and multi-tenant authentication systems.",
+        "Integrated AI-powered recommendation services.",
+      ],
+      line_2: "Stack Used: MERN Stack Framework - Python, NodeJS, ExpressJS, ElasticSearch, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, D3.JS, Webpack, NPM, Material-UI, Semantic-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API.",
       tags: [
         "Rest APIs",
         "PostgreSQL",
@@ -139,14 +155,13 @@ const AppData = {
       start_date: new Date("08/21/2016"),
       end_date: new Date("08/25/2017"),
       is_present: false,
-      line_1: `Worked on building for next generation product, hands on
-      experience in end to end phase of software development
-      life-cycle. Responsible for end-to-end product design and
-      development of the base platform for mobile and web platform.`,
-      line_2: `Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS,
-        MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap,
-        AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android
-        SDK, Html, CSS, Git.`,
+      line_1: [
+        "Worked on building for next generation product, hands on experience in end to end phase of software development life-cycle. Responsible for end-to-end product design and development of the base platform for mobile and web platform.",
+        "Developed hybrid mobile applications using Cordova and AngularJS.",
+        "Built survey and quiz management platforms.",
+        "Designed RESTful services and MongoDB data models.",
+      ],
+      line_2: "Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.",
       tags: [
         "Rest APIs",
         "MongoDB",
