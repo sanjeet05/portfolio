@@ -13,6 +13,30 @@ const AppData = {
   },
   experience: [
     {
+      id: 107,
+      name: "Alphastream.ai",
+      url: "https://alphastream.ai/",
+      role: "Sr. Full Stack Engineer",
+      start_date: new Date("09/02/2026"), // mm/dd/yyyy
+      end_date: new Date(""), // mm/dd/yyyy
+      is_present: true,
+      line_1: `Working with NodeJS, ExpressJS, MySql, Redis, ReactJS, GatsBy, Graphql, ES6, Docker,
+      Webpack, NPM, Bootstrap, Html, CSS,
+      Git to develop technology makes type 2 diabetes reversal possible.`,
+      line_2: "",
+      tags: [
+        "Rest APIs",
+        "Graphql",
+        "MicroService",
+        "NodeJS",
+        "Docker",
+        "MERN Stack",
+        "AWS",
+        "CI/CD Pipeline",
+        "Jira",
+      ],
+    },
+    {
       id: 106,
       name: "Twin Health",
       url: "https://ind.twinhealth.com/",
@@ -20,7 +44,7 @@ const AppData = {
       start_date: new Date("03/01/2021"), // mm/dd/yyyy
       end_date: new Date("30/10/2025"), // mm/dd/yyyy
       is_present: true,
-      line_1: `Working with NodeJS, ExpressJS, MySql, Redis, ReactJS, GatsBy, Graphql, ES6, Docker,
+      line_1: `Worked with NodeJS, ExpressJS, MySql, Redis, ReactJS, GatsBy, Graphql, ES6, Docker,
       Webpack, NPM, Bootstrap, Html, CSS,
       Git to develop technology makes type 2 diabetes reversal possible.`,
       line_2: "",
