@@ -59,7 +59,7 @@ const Experience = (props) => {
                   </span>
                   <div className="text-muted exp_date">{`${DateCalc(
                     exp.start_date,
-                    exp.end_date,
+                    exp.is_present ? new Date() : exp.end_date,
                   )}`}</div>
                 </div>
               </div>

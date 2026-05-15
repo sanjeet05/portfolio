@@ -19,10 +19,14 @@ export const DateCalc = (start_date, end_date) => {
   const start = new Date(start_date);
   const end = new Date(end_date);
 
+  if (isNaN(start.getTime()) || isNaN(end.getTime())) return "";
+
   const monthsDiff =
     (end.getFullYear() - start.getFullYear()) * 12 +
     (end.getMonth() - start.getMonth()) +
     1;
+
+  if (monthsDiff <= 0) return "< 1 month";
 
   const years = Math.floor(monthsDiff / 12);
   const months = Math.floor(monthsDiff % 12);
