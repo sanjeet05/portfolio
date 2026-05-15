@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import moment from "moment";
+import { formatMonthYear } from "../utils/dateFormat.utils";
 
 const Education = props => {
   const { data } = props;
@@ -25,8 +25,8 @@ const Education = props => {
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">
-                    {`${moment(edu.start_date).format("MMM YYYY")}`} -{" "}
-                    {`${moment(edu.end_date).format("MMM YYYY")}`}
+                    {formatMonthYear(edu.start_date)} -{" "}
+                    {formatMonthYear(edu.end_date)}
                   </span>
                 </div>
               </div>

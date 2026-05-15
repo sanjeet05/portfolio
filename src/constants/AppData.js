@@ -9,7 +9,7 @@ const AppData = {
     location: "Bangalore",
     linkedIn: "https://www.linkedin.com/in/isanjeet09",
     gitHub: "https://github.com/sanjeet05",
-    whatsapp: "https://wa.me/919445165233"
+    whatsapp: "https://wa.me/919445165233",
   },
   experience: [
     {
@@ -17,8 +17,8 @@ const AppData = {
       name: "Twin Health",
       url: "https://ind.twinhealth.com/",
       role: "Sr. Full Stack Engineer",
-      start_date: new Date("03/01/2021"),
-      end_date: new Date(),
+      start_date: new Date("03/01/2021"), // mm/dd/yyyy
+      end_date: new Date("30/10/2025"), // mm/dd/yyyy
       is_present: true,
       line_1: `Working with NodeJS, ExpressJS, MySql, Redis, ReactJS, GatsBy, Graphql, ES6, Docker,
       Webpack, NPM, Bootstrap, Html, CSS,
@@ -33,8 +33,8 @@ const AppData = {
         "MERN Stack",
         "AWS",
         "CI/CD Pipeline",
-        "Jira"
-      ]
+        "Jira",
+      ],
     },
     {
       id: 105,
@@ -58,8 +58,8 @@ const AppData = {
         "MicroService",
         "AWS",
         "CI/CD Pipeline",
-        "Jira"
-      ]
+        "Jira",
+      ],
     },
     {
       id: 104,
@@ -79,8 +79,8 @@ const AppData = {
         "NodeJS",
         "AWS",
         "CI/CD Pipeline",
-        "Jira"
-      ]
+        "Jira",
+      ],
     },
     {
       id: 103,
@@ -104,8 +104,8 @@ const AppData = {
         "ReactJS",
         "NodeJS",
         "ElasticSearch",
-        "MERN Stack"
-      ]
+        "MERN Stack",
+      ],
     },
     {
       id: 102,
@@ -131,8 +131,8 @@ const AppData = {
         "ExpressJS",
         "MEAN Stack",
         "JSON",
-        "Hybrid App"
-      ]
+        "Hybrid App",
+      ],
     },
     // {
     //   id: 101,
@@ -158,7 +158,7 @@ const AppData = {
       college: "Pondicherry University",
       course: "Master of Computer Application (MCA)",
       start_date: new Date("07/03/2013"),
-      end_date: new Date("05/10/2016")
+      end_date: new Date("05/10/2016"),
     },
     {
       id: 101,
@@ -166,9 +166,9 @@ const AppData = {
       college: "Kuvempu University",
       course: "Bachelor of Science (B.Sc)",
       start_date: new Date("07/10/2008"),
-      end_date: new Date("09/28/2012")
-    }
-  ]
+      end_date: new Date("09/28/2012"),
+    },
+  ],
 };
 
 export default AppData;

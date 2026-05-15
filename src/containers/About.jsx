@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import moment from "moment";
+import { yearsSince } from "../utils/dateFormat.utils";
 
 import qrImage from "../assets/images/sanjeet_qrcode.png";
 
@@ -31,7 +31,7 @@ const About = props => {
 
           <div>
             <p>
-              Work Experience : {`${moment().diff(data.workStarted, "years")}`}+
+              Work Experience : {yearsSince(data.workStarted)}+
               years
             </p>
           </div>

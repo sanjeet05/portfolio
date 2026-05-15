@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
-import moment from "moment";
-import DateCalc from "../components/DateCalc";
+import { formatMonthYear, DateCalc } from "../utils/dateFormat.utils";
 
 const Experience = props => {
   const data = props.data;
@@ -55,10 +54,10 @@ const Experience = props => {
                 </div>
                 <div className="resume-date text-md-right">
                   <span className="text-primary">
-                    {`${moment(exp.start_date).format("MMM YYYY")}`} -{" "}
+                    {formatMonthYear(exp.start_date)} -{" "}
                     {exp.is_present
                       ? "Present"
-                      : `${moment(exp.end_date).format("MMM YYYY")}`}
+                      : formatMonthYear(exp.end_date)}
                   </span>
                   <div className="text-muted exp_date">{`${DateCalc(
                     exp.start_date,
