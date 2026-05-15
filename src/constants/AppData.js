@@ -42,7 +42,7 @@ const AppData = {
       url: "https://ind.twinhealth.com/",
       role: "Sr. Full Stack Engineer",
       start_date: new Date("03/01/2021"), // mm/dd/yyyy
-      end_date: new Date("11/01/2025"), // mm/dd/yyyy
+      end_date: new Date("10/30/2025"), // mm/dd/yyyy
       is_present: false,
       line_1: `Worked with NodeJS, ExpressJS, MySql, Redis, ReactJS, GatsBy, Graphql, ES6, Docker,
       Webpack, NPM, Bootstrap, Html, CSS,
