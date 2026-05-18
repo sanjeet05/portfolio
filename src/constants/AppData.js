@@ -21,9 +21,12 @@ const AppData = {
       end_date: new Date(""), // mm/dd/yyyy
       is_present: true,
       line_1: [
-        "Working with NestJS, NodeJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git - Transform raw deal data into real-time intelligence.",
+        "Building a Private Credit Deal Lifecycle Platform, serving as a core system for end-to-end financial workflows.",
+        "Designing scalable backend services and modular frontend architecture for complex, high-throughput systems.",
+        "Contributing to system design decisions focused on scalability, reliability, and extensibility.",
       ],
-      line_2: "",
+      line_2:
+        "Stack Used: NodeJS, NestJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
       tags: [
         "Rest APIs",
         "Graphql",
@@ -54,7 +57,8 @@ const AppData = {
         "Optimized frontend performance, reducing page load times by <b>30%</b> and improving UI responsiveness.",
         "Used AI Copilot tools to accelerate development and improve code quality, refactoring, and test generation.",
       ],
-      line_2: "",
+      line_2:
+        "Stack Used: NodeJS, ExpressJS, MySql, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
       tags: [
         "Rest APIs",
         "Graphql",
@@ -76,13 +80,13 @@ const AppData = {
       end_date: new Date("03/20/2021"),
       is_present: false,
       line_1: [
-        "Worked with NodeJS, ExpressJS, PostgreSQL, MongoDB, Redis, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git to create blockchain powered products.",
         "Built web interfaces for Ethereum wallet integrations using Ether.js.",
         "Implemented real-time communication features using Socket.io.",
         "Automated build and deployment processes through CI/CD pipelines.",
         "Improved system reliability, reducing production errors by <b>25%</b>.",
       ],
-      line_2: "",
+      line_2:
+        "Stack Used:  NodeJS, ExpressJS, PostgreSQL, MongoDB, Redis, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git",
       tags: [
         "Blockchain",
         "Web3.JS",
@@ -105,13 +109,13 @@ const AppData = {
       end_date: new Date("10/12/2019"),
       is_present: false,
       line_1: [
-        "Worked with Python, NodeJS, ExpressJS, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, Webpack, NPM, Material-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API to create a testing platform.",
         "Developed backend services using Node.js, Python, and Flask.",
         "Implemented JWT-based authentication and authorization.",
         "Integrated PayPal payment gateway, improving transaction reliability.",
         "Built 30+ reusable UI components, improving development speed by <b>20%</b> using React.js.",
       ],
-      line_2: "",
+      line_2:
+        "Stack Used: Python, NodeJS, ExpressJS, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, Webpack, NPM, Material-UI, Bootstrap, Git, Nginx, Docker, AWS",
       tags: [
         "Rest APIs",
         "Python",
@@ -137,7 +141,8 @@ const AppData = {
         "Implemented role-based access control (RBAC) and multi-tenant authentication systems.",
         "Integrated AI-powered recommendation services.",
       ],
-      line_2: "Stack Used: MERN Stack Framework - Python, NodeJS, ExpressJS, ElasticSearch, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, D3.JS, Webpack, NPM, Material-UI, Semantic-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API.",
+      line_2:
+        "Stack Used: MERN Stack Framework - Python, NodeJS, ExpressJS, ElasticSearch, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, D3.JS, Webpack, NPM, Material-UI, Semantic-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API.",
       tags: [
         "Rest APIs",
         "PostgreSQL",
@@ -161,7 +166,8 @@ const AppData = {
         "Built survey and quiz management platforms.",
         "Designed RESTful services and MongoDB data models.",
       ],
-      line_2: "Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.",
+      line_2:
+        "Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.",
       tags: [
         "Rest APIs",
         "MongoDB",

@@ -32,12 +32,16 @@ const About = (props) => {
           <div>
             <p>Work Experience : {yearsSince(data.workStarted)}+ years</p>
           </div>
+          {/* summary */}
           <p className="mb-5">
-            To work in a dynamic environment with growth and potential where
-            team spirit, hard work, dedication and sincerity are appreciated. To
-            be an active, relevant, contributing, learning player of a growing
-            team within an organization that defines its own place in global
-            scenario.
+            A seasoned Senior Full Stack Engineer specializing in building and
+            scaling high-performance platforms across fintech and healthtech
+            domains. Deep expertise in system design, microservices architecture,
+            and cloud-native deployments on AWS. Skilled across the full stack —
+            from backend services in Node.js and NestJS to modern React
+            frontends. A hands-on technical lead who has mentored engineers,
+            shaped architecture decisions, and consistently delivered reliable,
+            production-grade systems in fast-paced environments.
           </p>
           <ul className="list-inline list-social-icons mb-0">
             {/* <!-- facebook --> */}
