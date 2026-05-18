@@ -24,12 +24,14 @@ const AppData = {
         "Building a Private Credit Deal Lifecycle Platform, serving as a core system for end-to-end financial workflows.",
         "Designing scalable backend services and modular frontend architecture for complex, high-throughput systems.",
         "Contributing to system design decisions focused on scalability, reliability, and extensibility.",
+        "Engineered RESTful APIs to support real-time deal data processing and reporting.",
+        "Implemented event-driven workflows to handle high-throughput financial data pipelines.",
+        "Collaborating closely with product and business stakeholders to translate complex financial domain requirements into technical solutions.",
       ],
       line_2:
-        "Stack Used: NodeJS, NestJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
+        "Stack Used: NodeJS, NestJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
       tags: [
         "Rest APIs",
-        "Graphql",
         "MicroService",
         "NodeJS",
         "Docker",
@@ -58,7 +60,7 @@ const AppData = {
         "Used AI Copilot tools to accelerate development and improve code quality, refactoring, and test generation.",
       ],
       line_2:
-        "Stack Used: NodeJS, ExpressJS, MySql, Redis, ReactJS, NextJS, GatsBy, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
+        "Stack Used: NodeJS, ExpressJS, MySql, Redis, ReactJS, NextJS, Gatsby, Graphql, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
       tags: [
         "Rest APIs",
         "Graphql",
@@ -80,13 +82,16 @@ const AppData = {
       end_date: new Date("03/20/2021"),
       is_present: false,
       line_1: [
+        "Developed and deployed blockchain-powered decentralized applications (dApps) on the Ethereum network.",
         "Built web interfaces for Ethereum wallet integrations using Ether.js.",
+        "Integrated IPFS for decentralized file storage in product workflows.",
         "Implemented real-time communication features using Socket.io.",
+        "Worked closely with blockchain architects to design smart contract interaction layers.",
         "Automated build and deployment processes through CI/CD pipelines.",
         "Improved system reliability, reducing production errors by <b>25%</b>.",
       ],
       line_2:
-        "Stack Used:  NodeJS, ExpressJS, PostgreSQL, MongoDB, Redis, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git",
+        "Stack Used: NodeJS, ExpressJS, PostgreSQL, MongoDB, Redis, ReactJS, ES6, D3.JS, Webpack, NPM, Material-UI, Bootstrap, Semantic-UI, Html, CSS, Git.",
       tags: [
         "Blockchain",
         "Web3.JS",
@@ -109,10 +114,13 @@ const AppData = {
       end_date: new Date("10/12/2019"),
       is_present: false,
       line_1: [
-        "Developed backend services using Node.js, Python, and Flask.",
-        "Implemented JWT-based authentication and authorization.",
+        "Developed backend services using Node.js, Python, and Flask for a SaaS-based testing platform.",
+        "Designed and implemented a scalable test execution engine supporting parallel test runs.",
+        "Built multi-tenant architecture with isolated data environments per client.",
+        "Implemented JWT-based authentication and role-based authorization.",
         "Integrated PayPal payment gateway, improving transaction reliability.",
-        "Built 30+ reusable UI components, improving development speed by <b>20%</b> using React.js.",
+        "Built interactive dashboards and reporting features using React.js and D3.js.",
+        "Built 30+ reusable UI components, improving development speed by <b>20%</b>.",
       ],
       line_2:
         "Stack Used: Python, NodeJS, ExpressJS, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, Webpack, NPM, Material-UI, Bootstrap, Git, Nginx, Docker, AWS",
@@ -136,10 +144,12 @@ const AppData = {
       end_date: new Date("09/10/2018"),
       is_present: false,
       line_1: [
-        "Worked on building for customer AI products, hands-on experience in end to end phase of software development life-cycle. Responsible for end-to-end product design and development of the base platform for the web platform.",
+        "Built customer AI products end-to-end, from system architecture to production deployment, as part of the core engineering team.",
         "Developed REST APIs and integrated them with React.js frontends.",
         "Implemented role-based access control (RBAC) and multi-tenant authentication systems.",
-        "Integrated AI-powered recommendation services.",
+        "Built ElasticSearch-powered search and analytics features for customer intelligence.",
+        "Developed data visualization dashboards using D3.js for actionable customer insights.",
+        "Integrated AI-powered recommendation services to drive personalized user experiences.",
       ],
       line_2:
         "Stack Used: MERN Stack Framework - Python, NodeJS, ExpressJS, ElasticSearch, MongoDB, PostgreSQL, Redis, ReactJS, Redux, ES6, D3.JS, Webpack, NPM, Material-UI, Semantic-UI, Bootstrap, Git, Nginx, Docker, AWS, Rest API.",
@@ -161,10 +171,12 @@ const AppData = {
       end_date: new Date("08/25/2017"),
       is_present: false,
       line_1: [
-        "Worked on building for next generation product, hands on experience in end to end phase of software development life-cycle. Responsible for end-to-end product design and development of the base platform for mobile and web platform.",
-        "Developed hybrid mobile applications using Cordova and AngularJS.",
-        "Built survey and quiz management platforms.",
-        "Designed RESTful services and MongoDB data models.",
+        "Built next-generation mobile and web platforms end-to-end, contributing across the full software development lifecycle as a core team member.",
+        "Developed hybrid mobile applications using Ionic Framework and Cordova targeting Android.",
+        "Built survey, quiz, and gamification features including leaderboards and badges.",
+        "Implemented real-time score tracking and push notification systems for user engagement.",
+        "Designed RESTful services and MongoDB data models to support scalable game mechanics.",
+        "Developed data visualizations using D3.js to display team and individual performance metrics.",
       ],
       line_2:
         "Stack Used: Mean Stack Framework (NodeJS, ExpressJS, AngularJS, MongoDB), Redis, D3.JS, REST, NPM, Bower, Gulp, Bootstrap, AdminLte, BlurAdmin, Ionic Framework, Cordova, SqLite, Android SDK, Html, CSS, Git.",

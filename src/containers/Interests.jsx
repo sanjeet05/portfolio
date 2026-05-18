@@ -10,15 +10,18 @@ const Interests = (props) => {
         <div className="my-auto">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            I enjoy mountain biking, free climbing.
+            Outside of engineering, I enjoy spending time outdoors — whether
+            it's trekking through trails, cycling around the city, or simply
+            exploring new places. I find that stepping away from the screen
+            helps me think more clearly and come back to problems with fresh
+            perspective.
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            When indoors, I enjoy watching sci-fi and thriller movies and series,
+            and I follow technology closely — reading about system design,
+            distributed systems, and emerging trends in web and cloud
+            engineering. I also like tinkering with side projects and browser
+            extensions that solve small but real everyday problems.
           </p>
 
           <div className="mt-5">
