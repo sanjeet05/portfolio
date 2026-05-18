@@ -27,6 +27,7 @@ const AppData = {
         "Engineered RESTful APIs to support real-time deal data processing and reporting.",
         "Implemented event-driven workflows to handle high-throughput financial data pipelines.",
         "Collaborating closely with product and business stakeholders to translate complex financial domain requirements into technical solutions.",
+        "Leveraging Claude and ChatGPT to accelerate development, assist with code reviews, architectural reasoning, and documentation.",
       ],
       line_2:
         "Stack Used: NodeJS, NestJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",

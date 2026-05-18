@@ -179,24 +179,58 @@ const Skills = (props) => {
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              Microservices &amp; Distributed System Design
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              API Design — RESTful Services &amp; Event-Driven Architecture
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Mobile-First, Responsive &amp; Component-Driven UI Development
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              CI/CD Pipelines, Docker &amp; Cloud Deployments on AWS
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Cross Browser Testing &amp; Performance Debugging
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Agile Development, Scrum &amp; Cross-Functional Team Collaboration
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Code Reviews, Technical Mentorship &amp; Engineering Best Practices
             </li>
           </ul>
           <div className="margin-top20">
+            <div className="subheading mb-3">AI-Powered Development</div>
+            <ul className="fa-ul mb-0">
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                GitHub Copilot — AI-assisted code completion, refactoring, and test generation
+              </li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Claude &amp; ChatGPT — used for architectural reasoning, code reviews, and problem-solving
+              </li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Prompt engineering for generating boilerplate, documentation, and debugging assistance
+              </li>
+              <li>
+                <i className="fa-li fa fa-check"></i>
+                Integrating AI APIs and LLM-powered features into production applications
+              </li>
+            </ul>
+          </div>
+
+          <div className="margin-top20">
             <div className="subheading mb-3">Languages</div>
-            <p>English, Basic French, Hindi</p>
+            <p>English, Hindi</p>
           </div>
         </div>
       </section>
