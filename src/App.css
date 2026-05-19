@@ -266,6 +266,10 @@ a:hover, a:focus, a:active {
     margin-bottom: 0px !important;
     margin-right: .5rem !important;
   }
+  #sideNav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
 
 @media (min-width: 768px) {

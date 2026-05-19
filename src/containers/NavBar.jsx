@@ -40,8 +40,8 @@ const NavBar = (props) => {
         <button
           className="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#collapsibleNavbar"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
         >
           <span className="navbar-toggler-icon"></span>
         </button>
