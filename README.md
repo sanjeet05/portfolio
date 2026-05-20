@@ -7,8 +7,8 @@ Personal portfolio website built with React 18.
 ## Tech Stack
 
 - React 18
+- Bootstrap 5.3.8 (installed via pnpm, no CDN)
 - react-scripts 5 (webpack)
-- moment / react-moment
 - pnpm (package manager)
 
 ## Prerequisites
