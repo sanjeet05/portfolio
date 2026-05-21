@@ -37,7 +37,7 @@ const About = (props) => {
             A seasoned Senior Full Stack Engineer specializing in building and
             scaling high-performance platforms across fintech and healthtech
             domains. Deep expertise in system design, microservices architecture,
-            and cloud-native deployments on AWS. Skilled across the full stack —
+            and cloud-native deployments on AWS. Skilled across the full stack -
             from backend services in NodeJS and NestJS to modern ReactJS
             frontends. A hands-on technical lead who has mentored engineers,
             shaped architecture decisions, and consistently delivered reliable,

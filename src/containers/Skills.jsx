@@ -84,7 +84,7 @@ const Skills = (props) => {
             </li>
             <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
-              API Design — RESTful Services &amp; Event-Driven Architecture
+              API Design - RESTful Services &amp; Event-Driven Architecture
             </li>
             <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
@@ -114,12 +114,12 @@ const Skills = (props) => {
             <ul className="fa-ul mb-0">
               <li className="mb-2">
                 <i className="fa-li fa fa-check"></i>
-                GitHub Copilot — AI-assisted code completion, refactoring, and
+                GitHub Copilot - AI-assisted code completion, refactoring, and
                 test generation
               </li>
               <li className="mb-2">
                 <i className="fa-li fa fa-check"></i>
-                Claude &amp; ChatGPT — used for architectural reasoning, code
+                Claude &amp; ChatGPT - used for architectural reasoning, code
                 reviews, and problem-solving
               </li>
               <li className="mb-2">

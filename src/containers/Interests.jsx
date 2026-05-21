@@ -10,7 +10,7 @@ const Interests = (props) => {
         <div className="my-auto">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Outside of engineering, I enjoy spending time outdoors — whether
+            Outside of engineering, I enjoy spending time outdoors - whether
             it's trekking through trails, cycling around the city, or simply
             exploring new places. I find that stepping away from the screen
             helps me think more clearly and come back to problems with fresh
@@ -18,7 +18,7 @@ const Interests = (props) => {
           </p>
           <p className="mb-0">
             When indoors, I enjoy watching sci-fi and thriller movies and series,
-            and I follow technology closely — reading about system design,
+            and I follow technology closely - reading about system design,
             distributed systems, and emerging trends in web and cloud
             engineering. I also like tinkering with side projects and browser
             extensions that solve small but real everyday problems.
