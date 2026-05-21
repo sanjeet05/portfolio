@@ -1,5 +1,14 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import profileImage from "../assets/images/sanjeet_img.jpg";
+
+const SECTIONS = [
+  "about",
+  "experience",
+  "education",
+  "skills",
+  "interests",
+  "awards",
+];
 
 const scrollTo = (href) => {
   document
@@ -8,6 +17,33 @@ const scrollTo = (href) => {
 };
 
 const NavBar = (props) => {
+  const [activeSection, setActiveSection] = useState("about");
+
+  useEffect(() => {
+    let timer;
+    const handleScroll = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        const scrollY = window.scrollY + 120;
+        let current = "about";
+        for (const id of SECTIONS) {
+          const el = document.getElementById(id);
+          if (el && el.offsetTop <= scrollY) {
+            current = id;
+          }
+        }
+        setActiveSection(current);
+      }, 50);
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    handleScroll();
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timer);
+    };
+  }, []);
+
   return (
     <Fragment>
       <nav
@@ -55,84 +91,29 @@ const NavBar = (props) => {
           id="collapsibleNavbar"
         >
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.toggleNavbar();
-                  scrollTo("#about");
-                }}
-                className="nav-link js-scroll-trigger active"
-                href="#about"
-              >
-                About
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.toggleNavbar();
-                  scrollTo("#experience");
-                }}
-                className="nav-link js-scroll-trigger"
-                href="#experience"
-              >
-                Experience
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.toggleNavbar();
-                  scrollTo("#education");
-                }}
-                className="nav-link js-scroll-trigger"
-                href="#education"
-              >
-                Education
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.toggleNavbar();
-                  scrollTo("#skills");
-                }}
-                className="nav-link js-scroll-trigger"
-                href="#skills"
-              >
-                Skills
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.toggleNavbar();
-                  scrollTo("#interests");
-                }}
-                className="nav-link js-scroll-trigger"
-                href="#interests"
-              >
-                Interests
-              </a>
-            </li>
-            <li className="nav-item">
-              <a
-                onClick={(e) => {
-                  e.preventDefault();
-                  props.toggleNavbar();
-                  scrollTo("#awards");
-                }}
-                className="nav-link js-scroll-trigger"
-                href="#awards"
-              >
-                Awards
-              </a>
-            </li>
+            {[
+              { id: "about", label: "About" },
+              { id: "experience", label: "Experience" },
+              { id: "education", label: "Education" },
+              { id: "skills", label: "Skills" },
+              { id: "interests", label: "Interests" },
+              { id: "awards", label: "Awards" },
+            ].map(({ id, label }) => (
+              <li className="nav-item" key={id}>
+                <a
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setActiveSection(id);
+                    props.toggleNavbar();
+                    scrollTo(`#${id}`);
+                  }}
+                  className={`nav-link js-scroll-trigger${activeSection === id ? " active" : ""}`}
+                  href={`#${id}`}
+                >
+                  {label}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </nav>
