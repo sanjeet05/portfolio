@@ -17,9 +17,9 @@ const Experience = (props) => {
                 className="resume-item d-flex flex-column flex-md-row mt-5"
                 key={exp.id}
               >
-                <div className="resume-content mr-auto">
+                <div className="resume-content me-auto">
                   <h3 className="mb-0">{exp.role}</h3>
-                  <div className="subheading mb-3 normal-text">
+                  <div className="subheading normal-text">
                     {exp.url ? (
                       <a
                         className="remove-underline"
@@ -42,6 +42,16 @@ const Experience = (props) => {
                       </a>
                     )}
                   </div>
+                  <div className="d-md-none mb-3">
+                    <span className="text-primary">
+                      {formatMonthYear(exp.start_date)} -{" "}
+                      {exp.is_present ? "Present" : formatMonthYear(exp.end_date)}
+                    </span>
+                    <div className="text-muted exp_date">{`${DateCalc(
+                      exp.start_date,
+                      exp.is_present ? new Date() : exp.end_date,
+                    )}`}</div>
+                  </div>
                   <ul>
                     {exp.line_1.map((point, i) => (
                       <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
@@ -56,7 +66,7 @@ const Experience = (props) => {
                     </ul>
                   </div>
                 </div>
-                <div className="resume-date text-md-right">
+                <div className="resume-date text-md-end d-none d-md-block">
                   <span className="text-primary">
                     {formatMonthYear(exp.start_date)} -{" "}
                     {exp.is_present ? "Present" : formatMonthYear(exp.end_date)}

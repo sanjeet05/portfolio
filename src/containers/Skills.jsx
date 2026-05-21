@@ -15,8 +15,8 @@ const Skills = (props) => {
           <ul className="list-inline list-icons">
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="NodeJS"
             >
               <i className="devicons devicons-python skill_icon"></i>
@@ -24,8 +24,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="NodeJS"
             >
               <i className="devicons devicons-nodejs_small skill_icon"></i>
@@ -33,8 +33,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="ReactJS"
             >
               <i className="devicons devicons-react skill_icon"></i>
@@ -42,8 +42,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="MongoDB"
             >
               <i className="devicons devicons-mongodb skill_icon"></i>
@@ -51,8 +51,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="AngularJS"
             >
               <i className="devicons devicons-angular skill_icon"></i>
@@ -60,8 +60,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="GIT"
             >
               <i className="devicons devicons-git skill_icon"></i>
@@ -69,8 +69,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="NGINX"
             >
               <i className="devicons devicons-nginx skill_icon"></i>
@@ -78,8 +78,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="HTML5"
             >
               <i className="devicons devicons-html5 skill_icon"></i>
@@ -87,8 +87,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="CSS3"
             >
               <i className="devicons devicons-css3 skill_icon"></i>
@@ -96,8 +96,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="Javascript"
             >
               <i className="devicons devicons-javascript skill_icon"></i>
@@ -105,8 +105,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="SASS"
             >
               <i className="devicons devicons-sass skill_icon"></i>
@@ -114,8 +114,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="Bootstrap"
             >
               <i className="devicons devicons-bootstrap skill_icon"></i>
@@ -123,22 +123,22 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="NPM"
             >
               <i className="devicons devicons-npm skill_icon"></i>
               <span className="skill_name">NPM</span>
             </li>
-            {/* <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="Bower">
+            {/* <li className="list-inline-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Bower">
               <i className="devicons devicons-bower skill_icon"></i>
               <span className="skill_name">Bower</span>
             </li>
-            <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="Grunt">
+            <li className="list-inline-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Grunt">
               <i className="devicons devicons-grunt skill_icon"></i>
               <span className="skill_name">Grunt</span>
             </li>
-            <li className="list-inline-item" data-toggle="tooltip" data-placement="top" title="Gulp">
+            <li className="list-inline-item" data-bs-toggle="tooltip" data-bs-placement="top" title="Gulp">
               <i className="devicons devicons-gulp skill_icon"></i>
               <span className="skill_name">Gulp</span>
             </li> */}
@@ -148,8 +148,8 @@ const Skills = (props) => {
           <ul className="list-inline list-icons">
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="AWS"
             >
               <i className="devicons devicons-aws skill_icon"></i>
@@ -157,8 +157,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="Linux"
             >
               <i className="devicons devicons-linux skill_icon"></i>
@@ -166,8 +166,8 @@ const Skills = (props) => {
             </li>
             <li
               className="list-inline-item"
-              data-toggle="tooltip"
-              data-placement="top"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
               title="Docker"
             >
               <i className="devicons devicons-docker skill_icon"></i>

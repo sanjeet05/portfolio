@@ -14,7 +14,7 @@ const Awards = (props) => {
               <i className="fa-li fa fa-trophy text-warning"></i>
               HIPAA: Compliance Module for End Users - TwinHealth, August 2022
               <a
-                className="ml-2"
+                className="ms-2"
                 href="/pdf/HIPAA-Compliance-Module-for-End-Users.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -27,7 +27,7 @@ const Awards = (props) => {
               <i className="fa-li fa fa-trophy text-warning"></i>
               HIPAA: Covered Entities - TwinHealth, August 2022
               <a
-                className="ml-2"
+                className="ms-2"
                 href="/pdf/HIPAA-Covered-Entities.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -40,7 +40,7 @@ const Awards = (props) => {
               <i className="fa-li fa fa-trophy text-warning"></i>
               MongoDB for Javascript Developers - MongoDB University, April 2019
               <a
-                className="ml-2"
+                className="ms-2"
                 href="https://university.mongodb.com/course_completion/028cb413-8971-44c0-8ade-d2fd7b21/printable"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -52,7 +52,7 @@ const Awards = (props) => {
               <i className="fa-li fa fa-trophy text-warning"></i>
               MongoDB for Python Developers - MongoDB University, March 2019
               <a
-                className="ml-2"
+                className="ms-2"
                 href="https://university.mongodb.com/course_completion/547bac8d-5b02-4732-9a66-c55ddcfb/printable"
                 target="_blank"
                 rel="noopener noreferrer"

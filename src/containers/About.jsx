@@ -21,7 +21,7 @@ const About = (props) => {
                 <a className="mobile_number" href={"tel:" + mobileNumber}>
                   (+91) {data.mobileNo}
                 </a>
-                ·<a href={"mailto:" + data.email}> {data.email} </a>
+                ·<a className="remove-underline" href={"mailto:" + data.email}> {data.email} </a>
               </div>
             </div>
             <div className="col-md-2 col-sm-12 qr_image">
@@ -68,7 +68,7 @@ const About = (props) => {
                 href={data.linkedIn}
                 target="_blank"
                 rel="noopener noreferrer"
-                data-toggle="tooltip"
+                data-bs-toggle="tooltip"
                 title="LinkedIn"
               >
                 <span className="fa-stack fa-lg">
@@ -83,7 +83,7 @@ const About = (props) => {
                 href={data.gitHub}
                 target="_blank"
                 rel="noopener noreferrer"
-                data-toggle="tooltip"
+                data-bs-toggle="tooltip"
                 title="GitHub"
               >
                 <span className="fa-stack fa-lg">
@@ -97,7 +97,7 @@ const About = (props) => {
                 href={data.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                data-toggle="tooltip"
+                data-bs-toggle="tooltip"
                 title="Whatsapp"
               >
                 <span className="fa-stack fa-lg">

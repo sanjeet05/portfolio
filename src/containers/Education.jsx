@@ -17,13 +17,19 @@ const Education = (props) => {
                 className="resume-item d-flex flex-column flex-md-row mt-5"
                 key={edu.id}
               >
-                <div className="resume-content mr-auto">
+                <div className="resume-content me-auto">
                   <h3 className="mb-0">{edu.college}</h3>
-                  <div className="subheading mb-3 normal-text">
+                  <div className="subheading normal-text">
                     {edu.course}
                   </div>
+                  <div className="d-md-none mb-3">
+                    <span className="text-primary">
+                      {formatMonthYear(edu.start_date)} -{" "}
+                      {formatMonthYear(edu.end_date)}
+                    </span>
+                  </div>
                 </div>
-                <div className="resume-date text-md-right">
+                <div className="resume-date text-md-end d-none d-md-block">
                   <span className="text-primary">
                     {formatMonthYear(edu.start_date)} -{" "}
                     {formatMonthYear(edu.end_date)}

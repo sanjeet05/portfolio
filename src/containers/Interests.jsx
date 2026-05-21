@@ -30,7 +30,7 @@ const Interests = (props) => {
             <div>
               <strong>Crypto - Price Ticker</strong> - Firefox Add-on
               <a
-                className="ml-2"
+                className="ms-2"
                 href="https://addons.mozilla.org/en-US/firefox/addon/crypto-price-ticker/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ const Interests = (props) => {
             <div className="mt-2">
               <strong>Loremi</strong> - Firefox Add-on
               <a
-                className="ml-2"
+                className="ms-2"
                 href="https://addons.mozilla.org/en-US/firefox/addon/loremi/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const Interests = (props) => {
             <div className="mt-2">
               <strong>Loremi</strong> - Chrome Add-on
               <a
-                className="ml-2"
+                className="ms-2"
                 href="https://chrome.google.com/webstore/detail/loremi/kblmadlmninloejlicjemplgngfpbofk"
                 target="_blank"
                 rel="noopener noreferrer"
