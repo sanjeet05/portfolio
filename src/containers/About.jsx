@@ -38,7 +38,7 @@ const About = (props) => {
             scaling high-performance platforms across fintech and healthtech
             domains. Deep expertise in system design, microservices architecture,
             and cloud-native deployments on AWS. Skilled across the full stack —
-            from backend services in Node.js and NestJS to modern React
+            from backend services in NodeJS and NestJS to modern ReactJS
             frontends. A hands-on technical lead who has mentored engineers,
             shaped architecture decisions, and consistently delivered reliable,
             production-grade systems in fast-paced environments.
