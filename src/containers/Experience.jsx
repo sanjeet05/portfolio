@@ -52,9 +52,9 @@ const Experience = (props) => {
                       exp.is_present ? new Date() : exp.end_date,
                     )}`}</div>
                   </div>
-                  <ul>
+                  <ul className="mt-2">
                     {exp.line_1.map((point, i) => (
-                      <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
+                      <li key={i} className="mb-2" dangerouslySetInnerHTML={{ __html: point }} />
                     ))}
                   </ul>
                   {exp.line_2 && <p>{exp.line_2}</p>}

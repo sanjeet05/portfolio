@@ -78,31 +78,31 @@ const Skills = (props) => {
 
           <div className="subheading mb-3">Workflow</div>
           <ul className="fa-ul mb-0">
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               Microservices &amp; Distributed System Design
             </li>
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               API Design — RESTful Services &amp; Event-Driven Architecture
             </li>
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               Mobile-First, Responsive &amp; Component-Driven UI Development
             </li>
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               CI/CD Pipelines, Docker &amp; Cloud Deployments on AWS
             </li>
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               Cross Browser Testing &amp; Performance Debugging
             </li>
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               Agile Development, Scrum &amp; Cross-Functional Team Collaboration
             </li>
-            <li>
+            <li className="mb-2">
               <i className="fa-li fa fa-check"></i>
               Code Reviews, Technical Mentorship &amp; Engineering Best
               Practices
@@ -112,22 +112,22 @@ const Skills = (props) => {
           <div className="margin-top20">
             <div className="subheading mb-3">AI-Powered Development</div>
             <ul className="fa-ul mb-0">
-              <li>
+              <li className="mb-2">
                 <i className="fa-li fa fa-check"></i>
                 GitHub Copilot — AI-assisted code completion, refactoring, and
                 test generation
               </li>
-              <li>
+              <li className="mb-2">
                 <i className="fa-li fa fa-check"></i>
                 Claude &amp; ChatGPT — used for architectural reasoning, code
                 reviews, and problem-solving
               </li>
-              <li>
+              <li className="mb-2">
                 <i className="fa-li fa fa-check"></i>
                 Prompt engineering for generating boilerplate, documentation,
                 and debugging assistance
               </li>
-              <li>
+              <li className="mb-2">
                 <i className="fa-li fa fa-check"></i>
                 Integrating AI APIs and LLM-powered features into production
                 applications
