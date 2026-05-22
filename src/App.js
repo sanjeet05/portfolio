@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./App.css";
 
 import NavBar from "./containers/NavBar";
@@ -14,6 +14,16 @@ import AppData from "./constants/AppData";
 export default function App() {
   const [collapsed, setCollapsed] = useState(true);
   const data = AppData;
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.innerWidth >= 1367) {
+        document.body.style.backgroundPositionY = `${window.scrollY * 0.4}px`;
+      }
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <div className="home_container">
