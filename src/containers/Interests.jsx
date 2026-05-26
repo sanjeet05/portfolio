@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { trackEvent } from "../utils/tracking.utils";
 
 const Interests = (props) => {
   return (
@@ -34,6 +35,7 @@ const Interests = (props) => {
                 href="https://addons.mozilla.org/en-US/firefox/addon/crypto-price-ticker/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_project", "open_source", "crypto-price-ticker")}
               >
                 <i className="fa fa-eye"></i>
               </a>
@@ -46,6 +48,7 @@ const Interests = (props) => {
                 href="https://addons.mozilla.org/en-US/firefox/addon/loremi/"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_project", "open_source", "loremi-firefox")}
               >
                 <i className="fa fa-eye"></i>
               </a>
@@ -58,6 +61,7 @@ const Interests = (props) => {
                 href="https://chrome.google.com/webstore/detail/loremi/kblmadlmninloejlicjemplgngfpbofk"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_project", "open_source", "loremi-chrome")}
               >
                 <i className="fa fa-eye"></i>
               </a>

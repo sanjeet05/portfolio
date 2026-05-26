@@ -1,5 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import profileImage from "../assets/images/sanjeet_img.jpg";
+import { trackEvent } from "../utils/tracking.utils";
 
 const SECTIONS = [
   "about",
@@ -106,6 +107,7 @@ const NavBar = (props) => {
                     setActiveSection(id);
                     props.toggleNavbar();
                     scrollTo(`#${id}`);
+                    trackEvent("nav_click", "navigation", id);
                   }}
                   className={`nav-link js-scroll-trigger${activeSection === id ? " active" : ""}`}
                   href={`#${id}`}

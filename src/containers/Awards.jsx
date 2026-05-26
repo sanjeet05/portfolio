@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { trackEvent } from "../utils/tracking.utils";
 
 const Awards = (props) => {
   return (
@@ -18,6 +19,7 @@ const Awards = (props) => {
                 href="/pdf/HIPAA-Compliance-Module-for-End-Users.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_award", "awards", "hipaa-compliance-end-users")}
               >
                 <i className="fa fa-eye"></i>
               </a>
@@ -31,6 +33,7 @@ const Awards = (props) => {
                 href="/pdf/HIPAA-Covered-Entities.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_award", "awards", "hipaa-covered-entities")}
               >
                 <i className="fa fa-eye"></i>
               </a>
@@ -44,6 +47,7 @@ const Awards = (props) => {
                 href="https://university.mongodb.com/course_completion/028cb413-8971-44c0-8ade-d2fd7b21/printable"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_award", "awards", "mongodb-javascript")}
               >
                 <i className="fa fa-eye"></i>
               </a>
@@ -56,6 +60,7 @@ const Awards = (props) => {
                 href="https://university.mongodb.com/course_completion/547bac8d-5b02-4732-9a66-c55ddcfb/printable"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => trackEvent("view_award", "awards", "mongodb-python")}
               >
                 <i className="fa fa-eye"></i>
               </a>

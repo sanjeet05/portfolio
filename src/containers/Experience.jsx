@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { formatMonthYear, DateCalc } from "../utils/dateFormat.utils";
+import { trackEvent } from "../utils/tracking.utils";
 
 const Experience = (props) => {
   const data = props.data;
@@ -26,6 +27,7 @@ const Experience = (props) => {
                         href={exp.url}
                         target="_blank"
                         rel="noopener noreferrer"
+                        onClick={() => trackEvent("company_click", "experience", exp.name)}
                       >
                         {exp.name}
                       </a>

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import { yearsSince } from "../utils/dateFormat.utils";
+import { trackEvent } from "../utils/tracking.utils";
 
 import qrImage from "../assets/images/sanjeet_qrcode.png";
 
@@ -18,10 +19,10 @@ const About = (props) => {
               </h1>
               <div className="subheading mb-5 normal-text">
                 {data.country} - {data.location} ·{" "}
-                <a className="mobile_number" href={"tel:" + mobileNumber}>
+                <a className="mobile_number" href={"tel:" + mobileNumber} onClick={() => trackEvent("contact_click", "about", "phone")}>
                   (+91) {data.mobileNo}
                 </a>
-                ·<a className="remove-underline" href={"mailto:" + data.email}> {data.email} </a>
+                ·<a className="remove-underline" href={"mailto:" + data.email} onClick={() => trackEvent("contact_click", "about", "email")}> {data.email} </a>
               </div>
             </div>
             <div className="col-md-2 col-sm-12 qr_image">
@@ -70,6 +71,7 @@ const About = (props) => {
                 rel="noopener noreferrer"
                 data-bs-toggle="tooltip"
                 title="LinkedIn"
+                onClick={() => trackEvent("social_click", "about", "linkedin")}
               >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
@@ -85,6 +87,7 @@ const About = (props) => {
                 rel="noopener noreferrer"
                 data-bs-toggle="tooltip"
                 title="GitHub"
+                onClick={() => trackEvent("social_click", "about", "github")}
               >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
@@ -99,6 +102,7 @@ const About = (props) => {
                 rel="noopener noreferrer"
                 data-bs-toggle="tooltip"
                 title="Whatsapp"
+                onClick={() => trackEvent("social_click", "about", "whatsapp")}
               >
                 <span className="fa-stack fa-lg">
                   <i className="fa fa-circle fa-stack-2x"></i>
