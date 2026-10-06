@@ -16,7 +16,7 @@ const AppData = {
       id: 108,
       name: "Mobius by Gaian",
       url: "https://www.mobiusdtaas.ai/",
-      role: "Engineering Lead | AI & Backend",
+      role: "Sr. Full Stack Engineer",
       start_date: new Date("06/26/2026"), // mm/dd/yyyy
       end_date: new Date(""), // mm/dd/yyyy
       is_present: true,
