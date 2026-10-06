@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       bootstrap:
-        specifier: 5.3.8
+        specifier: ^5.3.8
         version: 5.3.8(@popperjs/core@2.11.8)
       gh-pages:
         specifier: ^6.3.0

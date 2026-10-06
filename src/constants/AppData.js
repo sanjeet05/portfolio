@@ -12,34 +12,68 @@ const AppData = {
     whatsapp: "https://wa.me/919445165233",
   },
   experience: [
+     {
+      id: 108,
+      name: "Mobius by Gaian",
+      url: "https://www.mobiusdtaas.ai/",
+      role: "Engineering Lead | AI & Backend",
+      start_date: new Date("06/26/2026"), // mm/dd/yyyy
+      end_date: new Date(""), // mm/dd/yyyy
+      is_present: true,
+      line_1: [
+        "Leading a small engineering team focused on <b>AI and backend engineering</b>, driving execution across product, architecture, and delivery.",
+        "Developing <b>AI agents and agentic workflows</b> using Python and Go (Golang) for intelligent automation and decisioning systems.",
+        "Working on <b>harness engineering</b> for building, testing, evaluating, and operating agentic systems in production.",
+        "Designing and building <b>scalable, high-performance backend services</b> to power AI-driven experiences and internal platform capabilities.",
+        "Driving <b>service scalability, reliability, observability, and production readiness</b> across distributed systems.",
+        "Making architecture and technology decisions for <b>distributed systems and AI-powered services</b> with a focus on resilience and maintainability.",
+        "Mentoring engineers and establishing <b>engineering best practices</b> across code quality, system design, and operational excellence.",
+      ],
+      line_2:
+        "Stack Used: Python, Go, Docker, Kubernetes, AWS, Redis, PostgreSQL, gRPC, REST APIs, CI/CD, Git, Observability, Agentic Workflows.",
+      tags: [
+        "AI Agents",
+        "Python",
+        "Go",
+        "Backend Engineering",
+        "Distributed Systems",
+        "Microservices",
+        "Observability",
+        "Agentic Workflows",
+        "AWS",
+        "System Design",
+        "Mentoring",
+      ],
+    },
     {
       id: 107,
       name: "Alphastream.ai",
       url: "https://alphastream.ai/",
       role: "Sr. Full Stack Engineer",
       start_date: new Date("02/09/2026"), // mm/dd/yyyy
-      end_date: new Date(""), // mm/dd/yyyy
-      is_present: true,
+      end_date: new Date("06/19/2026"), // mm/dd/yyyy
+      is_present: false,
       line_1: [
-        "Building a <b>Private Credit Deal Lifecycle Platform</b>, serving as a core system for end-to-end financial workflows.",
-        "Designing scalable backend services and modular frontend architecture for complex, high-throughput systems.",
-        "Contributing to system design decisions focused on scalability, reliability, and extensibility.",
-        "Engineered <b>RESTful APIs</b> to support real-time deal data processing and reporting.",
-        "Implemented <b>event-driven workflows</b> to handle high-throughput financial data pipelines.",
-        "Collaborating closely with product and business stakeholders to translate complex financial domain requirements into technical solutions.",
-        "Leveraging <b>Claude and ChatGPT</b> to accelerate development, assist with code reviews, architectural reasoning, and documentation.",
+        "Built a <b>Private Credit Deal Lifecycle Platform</b> that served as the core system for end-to-end financial workflows and deal operations.",
+        "Designed scalable backend services and modular frontend architecture for complex, high-throughput workflows across credit workflows and data-heavy product experiences.",
+        "Contributed to system design decisions focused on <b>scalability, reliability, and extensibility</b> for a fast-growing financial platform.",
+        "Engineered <b>RESTful APIs</b> for real-time deal data processing, reporting, and operational visibility across stakeholders.",
+        "Implemented <b>event-driven workflows</b> to handle high-throughput financial data pipelines and improve platform responsiveness.",
+        "Collaborated closely with product and business stakeholders to translate domain requirements into technical solutions for deal lifecycle management.",
+        "Leveraged <b>Claude and ChatGPT</b> to accelerate development, improve code reviews, support architectural reasoning, and streamline documentation workflows.",
       ],
       line_2:
-        "Stack Used: NodeJS, NestJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git.",
+        "Stack Used: NodeJS, NestJS, ExpressJS, MySql, DynamoDB, Redis, ReactJS, NextJS, ES6, Docker, Webpack, NPM, Bootstrap, Html, CSS, Git, REST APIs, AI Tools.",
       tags: [
+        "Private Credit",
         "Rest APIs",
-        "MicroService",
+        "Event-Driven",
         "NodeJS",
         "Docker",
-        "MERN Stack",
+        "System Design",
         "AWS",
-        "CI/CD Pipeline",
-        "Jira",
+        "AI Tools",
+        "Product Collaboration",
       ],
     },
     {
